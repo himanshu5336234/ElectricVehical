@@ -1,0 +1,172 @@
+.w-parent-div {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-form {
+  padding: 6%;
+  margin-top: 3%;
+  width: 55vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  h2 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #111318;
+    margin-bottom: 30px;
+  }
+  .w-input-boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .input-1 {
+      width: 342px;
+      height: 50px;
+      background: #f3f3f3;
+      font-family: "Red Hat Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #111318;
+      //   opacity: 0.5;
+      border: none;
+      outline: none;
+      margin: 0px 0px 10px 0px;
+      padding-left: 10px;
+    }
+    .w-n-input {
+      background: #f3f3f3;
+      width: 352px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+
+      .w-line {
+        height: 20px;
+        opacity: 0.4;
+      }
+      .input-n {
+        background: #f3f3f3;
+        outline: none;
+        border: none;
+        height: inherit;
+        padding-left: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19.6px;
+        //    width: 100%;
+      }
+      label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+      }
+      &.error {
+        border: 1px solid #ec7272;
+      }
+    }
+  }
+  .w-upload-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #787e8c;
+    h3 {
+      font-family: "Red Hat Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      color: #272828;
+    }
+  }
+  .w-file-upload-parent {
+    width: 342px;
+    height: 50px;
+    background-color: #ec7272;
+    // position: relative;
+    // display: flex;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    .w-custom-input::-webkit-file-upload-button {
+        visibility: hidden;
+      }
+   
+    .w-custom-input::before{
+      content: 'Select file';
+      width: 336px;
+      height: 50px;
+      background: #f3f3f3;
+      border: 1px solid #d9dadd;
+      box-shadow: 0px 2px 8px 4px rgba(125, 125, 125, 0.16);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 14px;
+      position: absolute;
+      cursor: pointer;
+      font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 140%;
+    }
+    .w-file-uploadafter{
+        display: flex;
+        height: auto;
+        width: auto;
+        .w-btn-after{
+            width: 342px;
+            height: 50px;
+            background: #f3f3f3;
+            border: 1px solid #d9dadd;
+            box-shadow: 0px 2px 8px 4px rgba(125, 125, 125, 0.16);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 14px;
+            position: absolute;
+            cursor: pointer;
+            padding-right: 20px;
+            
+            label{
+                color: #111318;
+                margin-left: 10px;
+            }
+        }
+    }
+    
+  }
+  .btn-sumbit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // padding: 18px 56px;
+    gap: 8px;
+    width: 260px;
+    height: 56px;
+    background: #111318;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

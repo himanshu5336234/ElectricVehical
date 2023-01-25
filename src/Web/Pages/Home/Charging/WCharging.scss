@@ -1,0 +1,53 @@
+.w-charging{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.videoTag{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    // top: 10vh;
+}
+.charging_heading{
+    text-align: left;
+    font-weight: 700;
+font-size: 74.2798px;
+line-height: 110%;
+color: #FFFFFF;
+position: absolute;
+top: 30%;
+    margin-left: 104px;
+}
+.heading_subtitle{
+    font-weight: 500 !important;
+font-size: 30.2222px !important;
+line-height: 135% !important;
+color: #FFFFFF;
+}
+.redirection_container{
+    width:237px;
+height:60px;
+padding: 31px 32px 31px 16px;
+background: #FFFFFF;
+border-radius: 8px;
+display: flex;
+gap: 32px;
+align-items: center;
+}
+.container_title{
+    font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #111318;
+}
+.container_value{
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+color: #111318;
+}
+.performance_icon{
+    height: 20px !important;
+    width: 22px !important;
+}

@@ -1,0 +1,16 @@
+.back-button{
+    padding: 8px 24px 8px 12px;
+    display: flex;
+    gap: 8px;
+    background: #F3F3F3;
+border-radius: 200px;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+color: #111318;
+position:fixed;
+z-index: 100000;
+top: calc(10vh + 24px);
+left: 24px;
+cursor: pointer;
+  }

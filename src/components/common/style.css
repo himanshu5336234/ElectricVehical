@@ -1,0 +1,21 @@
+.btnTestDrive {
+  width: 100%;
+  color: #ffffff;
+  margin: 32px 0px;
+  background-color: #000000;
+  border: none;
+  outline: none;
+  /* height: 54px; */
+     font-weight: 500;
+    font-size: 14px;
+    padding:16px 0;
+}
+.result-address {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.result-icon {
+  width:20px;
+  height:20px;
+}

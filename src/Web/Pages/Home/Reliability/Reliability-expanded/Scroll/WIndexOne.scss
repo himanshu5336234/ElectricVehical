@@ -1,0 +1,80 @@
+.w-index-one-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .w-section-slider-one{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: relative;
+        justify-content: center;
+         .w-bg-img{
+         width: inherit; 
+         height: inherit;
+         object-fit: cover;  
+         }
+        .w-slider-content{
+            background-image: linear-gradient(to top, black, transparent);
+            position: absolute;
+            top:60%;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 40vh;
+            align-items: center; 
+
+            .w-icon-div{
+                align-items: center;
+    top: -90%;
+    left: 20%;
+    position: absolute;
+
+
+                // justify-content: flex-start;
+                .w-icon-img{
+                    display: flex;
+                    width: 60%;
+                    height: 50%;
+                    object-fit:contain;
+                    color: #ffffff;
+                }
+                span{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;                   
+                    font-family: 'Red Hat Display';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 43.6989px;
+                    line-height: 58px;
+                    margin-left: 30px;
+                }
+            }
+            h2{
+                // width: 80%;
+                padding-left: 75px;
+                text-align: center;
+                color: white;
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 65.5484px;
+                line-height: 100%;
+                // position: absolute;
+                // left: 32%;
+                // top: -25%;
+            }
+            p{
+                font-weight: 400;
+    font-size: 25.2659px;
+    color: #FFFFFF;
+    line-height: 150%;
+    width: 70%;
+            }
+        }
+    }
+}

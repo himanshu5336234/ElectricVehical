@@ -1,0 +1,40 @@
+.img-container{
+    width: inherit;
+    height: calc(105vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    .img-wrapper{
+       width: 80%;
+       height: inherit;
+       position: relative;
+        img{
+            position: absolute;
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+        }
+        .img-desc{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10%;
+            position: absolute;
+            top: 50%;
+            h3{
+                border: 1px solid black;
+                width: 40%;
+                color: white;
+            }
+            p{
+                margin-bottom: 5%;
+                border: 1px solid black;
+                width: 80%;
+                color: white;
+            }
+        }
+
+    }
+    
+}

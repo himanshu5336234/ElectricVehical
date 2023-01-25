@@ -1,0 +1,48 @@
+.w-LandingService{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url("../../../Assets/Service/Service&Warrenty.jpg");
+    background-size:100% 100%;
+
+}
+
+.logo_container{
+   position: absolute;
+   text-align: left !important;
+   top: 12%;
+    margin-left: 104px;
+    margin-top: 70px;
+
+}
+.logo_container h1{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 70.1531px;
+line-height: 110%;
+color: #FFFFFF;
+// text-transform: uppercase;
+}
+
+.box_container{
+
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    bottom: 32px;
+    left: 197px;
+
+}
+
+.starting_at{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.2222px;
+    line-height: 135%;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}

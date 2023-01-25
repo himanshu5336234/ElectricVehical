@@ -1,0 +1,79 @@
+.w-parent-div {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .w-job-description {
+    padding: 6%;
+    margin-top: 3%;
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    .w-title-heading {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 35px;
+      h2 {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 53px;
+        color: #111318;
+      }
+      button {
+        padding: 14px 25px;
+        // gap: 8px;
+        width: 146px;
+        height: 50px;
+        background: #111318;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+    .w-about-div {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #111318;
+        margin-bottom: 8px;
+      }
+      p {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #292b2b;
+        margin-bottom: 15px;
+      }
+      ul {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        padding-left: 30px;
+        color: #292b2b;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

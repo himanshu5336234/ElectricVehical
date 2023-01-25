@@ -1,0 +1,96 @@
+
+.app{    
+    .section{
+        overflow-x: hidden;
+        width: 100vw;
+        height: calc(100vh - 80px);
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        >*{
+            height: calc(100vh - 80px);
+            scroll-snap-align:start;
+            width: 100%;
+            height: 100vh;
+        }
+    }
+
+    .animation-section-last{
+        width: 100vw;
+        overflow-y: hidden;
+       scroll-snap-align: start;
+        overflow-x: hidden;
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        .img-wrapper{
+          position: relative;
+          flex: 5;
+          width: 100vw;
+          .img-container-last{
+            position: absolute;
+            width: 100vw;
+            // height: inherit;
+            img{
+                width: inherit;
+                height: inherit;
+                object-fit:cover;
+              }
+          }
+          .des-container{
+              position: absolute;
+              bottom: 30px;
+              width: 100%;
+            //   height: 40%;
+              display: flex;
+              flex-direction: column;
+              padding-left: 25px;
+              .heading{
+                  color: white;
+                  font-size: 35px;
+              }
+              .title{
+                  color: white;
+                  font-size: 50px;
+              }
+          }
+        }
+        .extra-info-wrapper{
+          flex: 4;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          span{
+              width: 90%;
+              text-align: center;
+              font-size: 18px;
+              line-height: 27px;
+              font-weight: 400;
+          }
+          .animate-left{
+            text-align: center;
+            width: 90%;
+              font-size: 32px;
+              font-weight: 700;
+              margin-top: 2%;
+              line-height: 48px;
+            }
+          .animate-right{
+            text-align: center;
+            width: 90%;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 48px;
+          }
+        }
+      }
+    
+}
+

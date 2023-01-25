@@ -1,0 +1,653 @@
+
+.design-expand 
+{
+    background-color: #292B2B;
+    /* overflow-x: hidden; */
+    height : 85vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+}
+.content-display 
+{
+    display: none;
+}
+.design-expand > img 
+{
+    position: absolute;
+    width: 350px;
+    top : 30%;
+    /* left : 25vw; */
+    right: 25%;
+    /* transform: translate(-50%, -50%); */
+}
+/* .range-slider-img-outer-container 
+{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+} */
+.range-slider-img
+{
+    /* border: 1px solid red; */
+    position : absolute;
+    width : 100vw;
+    height : 40vh;
+    left : 0;
+    top : 37vh;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    touch-action: pinch-zoom;
+}
+.range-slider-img img
+{
+    /* position: static !important; */
+    width: 500px !important;
+    height: 400px !important;
+}
+.range-slider-img > div:first-child 
+{
+    user-select: all !important;
+    touch-action: auto !important;
+}
+.range-slider-inner-img 
+{
+    position: absolute;
+    width: 45em;
+    overflow-x: hidden;
+    /* position: relative; */
+    top : -10%;
+}
+.track 
+{
+    transform: scale(1);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding : 20px 20px 20px 20px;
+    overflow: hidden;
+    /* z-index: 10000; */
+}
+.stroke-center-main 
+{
+    z-index: 100000;
+}
+.circular-parent-range-slider 
+{
+    /* transform: rotate(-11deg); */
+    visibility: visible;
+}
+.custom-progress 
+{
+    /* transform: rotate(-11deg); */
+    visibility: hidden;
+}
+.design-content 
+{
+    position : absolute;
+    top :0%;
+    height : 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.design-content-inner {
+    height : 100%;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(rgba(41, 43, 43, 1) 30%, rgba(41,43,43,0));
+}
+.design-content span 
+{
+    display: block;
+}
+.design-uppar-content 
+{
+    width : 80%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.design-middle-content 
+{
+    height: 20%;
+    width : 80%;
+    margin-bottom: 50px;
+}
+.design-middle-content > div
+{
+    width : 100%;
+    height : 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-middle-content > div > div:first-child,
+.design-middle-content > div > div:last-child 
+{
+    height : 1px;
+    width : 20%;
+    background-color: white;
+}
+.design-middle-content > div > span
+{
+    font-size: 1.25;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+}
+.design-upper-content > span:first-child 
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.design-upper-content > span:last-child 
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+.design-bottom-content
+{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:-30vh;
+    /* visibility: visible; */
+}
+.design-bottom-content-hidden 
+{
+    /* visibility: hidden; */
+    display: none;
+    transition: 1s ease-in;
+}
+.design-bottom-content > div 
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-content-hori
+{
+    height : 30px;
+    width : 1px;
+    background-color: rgba(255,255,255,0.5);
+}
+.design-bottom-content > div > div:last-child 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-bottom-content > div > div:last-child span
+{
+    display: block;
+    font-size: 0.875;
+    font-weight: 700;
+    padding-left : 10px;
+    color: rgba(255,255,255,0.5)
+}
+
+
+/* ------------------------ BIKE SPIN SLIDE IMAGES -------------------- */
+.blank-space 
+{
+    height : 100vh;
+    width: 100vw;
+    background-color: white;
+}
+.spin-bike-slider-container
+{
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.spin-bike-slider-inner-row1 
+{
+    /* margin : -50px 0 0 0; */
+    transform: translateY(-50px);
+}
+.spin-bike-slider-inner-row1 span
+{
+    display: block;
+    text-align: center;
+}
+.spin-bike-slider-inner-row1 span:first-child 
+{
+    color : #787E8C;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.spin-bike-slider-inner-row1 span:last-child 
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.spin-bike-inner-slider
+{
+    width: 60vw;
+    height: 20%;
+    position: relative;
+}
+
+/* ------------------- SPIN BIKE SLIDER------------ */
+.spin-bike-slider-inner-row 
+{
+    height : 65%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+.spin-bike-slider-inner-column
+{
+    height : 100%;
+    width : 90%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.spin-bike-slider-inner-column > div
+{
+    height : 100%;
+    width: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    /* overflow-x: auto; */
+    /* position: relative; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    justify-content: space-between;
+}
+.spin-bike-slider-inner-column > div > div 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.spin-bike-opacity
+{
+    opacity: 0.5;
+    transition: 100ms ease;
+    /* margin: 2vh 0 0 0; */
+}
+.spin-bike-slider1
+{
+    width : 100%;
+    height : 80%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spin-bike-index1 
+{
+    position: relative;
+    z-index: 5;
+}
+.spin-bike-index2
+{
+    position: relative;
+    z-index: 10;
+}
+.spin-bike-index3 
+{
+    position: relative;
+    z-index: 3;
+}
+.spin-bike-slider-inner-column > div > div > div:last-child 
+{
+    /* background-color: indianred; */
+    height : 20%;
+    width: 100vw;
+}
+.spin-bike-1, .spin-bike-2, .spin-bike-3 
+{
+    width : 30%;
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spin-bike-inner-img
+{
+    width: 80px;
+    /* display: block; */
+    visibility: visible;
+}
+.spin-bike-inner-img-hidden
+{
+    /* display: none; */
+    visibility: hidden;
+}
+.spin-bike-absolute-position 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.spin-bike-hidden-slide 
+{
+    display: none;
+    visibility: hidden;
+}
+.spin-bike-show-slide
+{
+    display: block;
+    visibility: visible;
+}
+.spin-bike-rotational-hidden-slide
+{
+    display: none;
+    visibility: hidden;
+}
+.spin-bike-rotational-show-slide
+{
+    position: absolute;
+    width: 700px;
+    /* height: 500px; */
+    z-index: 1000;
+    margin : 0 0 0 15px;
+}
+.spin-bike-rotational-show-slide-hidden 
+{
+    display: none;
+}
+/* .spin-bike-slider-inner-column img 
+{
+    width: 80px;
+} */
+.spin-bike-slider-inner-column span 
+{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.spin-bike-slide-bottom-circle
+{
+    position :absolute;
+    top : 45vh;
+    z-index: -10;
+}
+.spin-bike-slide-anime-line
+{
+    position : absolute;
+    z-index: -1000;
+    top : 65%;
+    padding : 20px 0 0 0;
+}
+.spin-bike-slide-anime-line img 
+{
+    width: 230px;
+    height: 230px;
+}
+
+
+
+
+/* ----------------------------------- BIKE SCROLLING ANIMATION ------------------------ */
+.blank-container 
+{
+    background-color:rgba(217, 218, 221, 1);
+}
+.bike-scrolling-container 
+{
+    height : 100vh;
+    width : 100vw;
+    overflow: hidden;
+    background-color:rgba(217, 218, 221, 1);
+}
+.bike-scrolling-container span 
+{
+    display: block;
+}
+.scrolling-bike-nor 
+{
+    transform: scale(1);
+}
+.scrolling-bike 
+{
+    /* transform: scale(2); */
+    /* position: absolute; */
+    /* overflow-x: auto !important; */
+    animation-name : scrollingBike;
+    animation-duration: 1000ms;
+    transition: scale 1s;
+    /* position: absolute; */
+    animation-timing-function: linear;
+    margin-right: 10px;
+    /* position : static; */
+}
+@keyframes scrollingBike {
+   from {
+    transform: scale(2);
+   }
+   to {
+    transform: scale(1);
+   }
+}
+.bike-scrolling-inner-container 
+{
+    height : 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bike-scrolling-inner-container > div 
+{
+    width : 90%;
+}
+.bike-scrolling
+{
+    margin-right: 40px;
+}
+.bike-scrolling > img 
+{
+    height: 300px;
+}
+.bike-scrolling-inner-container > div:nth-child(2)
+{
+    margin-left: -15px;
+}
+.bike-scrolling-inner-container > div:first-child > span:first-child 
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.bike-scrolling-inner-container > div:first-child > span:last-child
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(120, 126, 140, 1);
+}
+.bike-scrolling-inner-container > div:last-child 
+{
+    display: flex;
+    justify-content: center;
+}
+.bike-scrolling-inner-container > div:last-child>span 
+{
+    width : 83%;
+    font-size: 0.875rem;
+    color: rgba(120, 126, 140, 1);
+}
+.generic-bike 
+{
+    height : 30%;
+    width: 100%;
+    /* background-image:linear-gradient(rgba(217, 218, 221, 0),rgba(217, 218, 221, 1) 50%); */
+}
+.generic-bike > img 
+{
+    height: 350px;
+    /* width: 400px; */
+}
+.bike-scrolling-container-2
+{
+    height : 91vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid black; */
+}
+.bike-scrolling-container2-dots
+{
+    width : 100%;
+    height : 3%;
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top : 80vh;
+}
+.bike-scrolling-container2-inner-dots
+{
+    width: 20%;
+    height: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bike-scrolling-container2-dots-non-active-dots
+{
+    height : 10px;
+    width: 10px;
+    background-color: #787E8C;
+    border-radius: 50%;
+}
+.bike-scrolling-container2-dots-active-dots 
+{
+    background-color: #292B2B;
+    height : 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.bike-scrolling-container-2 > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65vh;
+    transform: translateY(2vh);
+}
+.bike-scrolling-container-2 span 
+{
+    display: block;
+    text-align: center;
+}
+/* .bike-scrolling-container-2  div:last-child > div:first-child
+{
+    height : 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.design-expand-swiper-outer-container 
+{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-expand-swiper-inner-hidden-slide 
+{
+    display: none;
+    visibility: hidden;
+}
+.design-expand-swiper-inner-show-slide 
+{
+    display: block;
+    visibility: visible;
+}
+
+.design-expand-swiper-outer-container > div:last-child 
+{
+    width: 90vw;
+    height: 30%;
+}
+.bike-scrolling-container-2 > div > div:first-child > img 
+{
+    /* transform: scale(1.5); */
+    /* width: inherit; */
+}
+.bike-scrolling-container-2 > div > div:nth-child(2) 
+{
+    height : 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bike-scrolling-container-2  div > div:nth-child(2) > span:first-child
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(17, 19, 24, 1);
+}
+.bike-scrolling-container-2  div > div:nth-child(2) > span:nth-child(2)
+{
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+}
+.bike-scrolling-container-2  div > div:nth-child(2) > span:last-child 
+{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(17, 19, 24, 1);
+}
+
+/* <---------------Background-img-----------> */
+.design-container {
+  width: 100%;
+  background-image: url("../../../asset/LandingPage/design_mobile__AdobeExpress.gif");
+  background-size: cover;
+}

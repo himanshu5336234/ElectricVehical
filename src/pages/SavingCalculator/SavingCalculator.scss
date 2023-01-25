@@ -1,0 +1,87 @@
+.saving-container{
+    background-color: rgb(238, 238, 238);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    .saving-top{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .saving-cal-title{
+            display: flex;
+            align-items: center;
+            width: 90%;
+            // flex: 1;
+            span{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26.46px;
+            }
+        }
+        .select-state-wrapper{
+            width: 90%;
+            height: 55px;
+            background-color: white;
+            .select-city{
+                width: 100%;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+        .saving-km-wraper{
+            width: 90%;
+            background-color: white;
+            label{
+               display: flex;
+               height: 55px;
+               justify-content: center;
+               align-items: center;
+                input{
+                    padding-left: 10px;
+                 flex: 8;
+                 font-weight: 400;
+                 font-size: 14px;
+                 line-height: 19.6px;
+                 border: none;
+                 outline: none;
+                 height: 80%;
+                }
+                span{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  flex: 2;
+                  font-weight: 500;
+                 font-size: 14px;
+                 line-height: 19.6px;
+    
+                }
+            }
+        }
+    }
+    .saving-bottom{
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        .saving-button{
+         width: 90%;
+         height: 55px;
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 19.6px;
+         background-color: #111318;
+         color: white;
+         outline: none;
+         border: none;
+
+         &.disable{
+            background-color: #D9DADD;
+         }
+    }
+    }
+}

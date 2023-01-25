@@ -1,0 +1,110 @@
+.w-mybookingBody{
+  display: flex;
+  padding-top: 10vh;
+  .w-mybookingLeft-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+.w-mybooking-wrapper{
+ width: 50%;
+  position: relative;
+ 
+  
+  .w-mybooking-container{
+  
+
+      .w-booking-form-container{
+          height: 300px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(238, 238, 238);
+          
+          .w-form-top{
+              margin-left: 5%;
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              .w-form-title{
+                  font-weight: 600;
+                  font-size: 20px;
+                  line-height: 26.46px;
+                  color: #111318;
+              }
+              .w-form-input{
+                  width: 95%;
+                  height: 48px;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  background-color: white;
+                  .w-form-countrycode{
+                      width: 15%;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      font-weight: 400;
+                      font-size: 16px;
+                      line-height: 140%;
+          
+                  }
+                  .w-form-input-phonenumber{
+                      width: 70%;
+                      height: 70%;
+                      font-weight: 400;
+                      font-size: 16px;
+                      line-height: 140%;
+                      border: none;
+                      outline: none;
+                  }
+              }
+          }
+      
+          .w-button-wrapper{
+      
+              flex: 1;
+              margin-left: 5%;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              .w-form-button{    
+                  width: 95%;
+                  background-color: #111318;
+                  height: 56px;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 19.6px;
+                  color: #FFFFFF;
+                  border: none;
+                  cursor: pointer;
+                  outline: none;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+      
+                  &.disable{
+                      background-color: #D9DADD;      
+              }
+              }
+          }
+      }
+  
+      &.disable{
+          filter: blur(5px);
+          pointer-events: none;
+          user-select: none;
+      }
+  }
+  .popup{
+     position: fixed;
+     top: 0;
+  }
+
+}}

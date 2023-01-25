@@ -1,0 +1,96 @@
+.mybooking-wrapper{
+    position: relative;
+    .mybooking-container{
+    
+
+        .booking-form-container{
+            // width: 100vw;
+            height: 300px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(238, 238, 238);
+            
+            .form-top{
+                margin-left: 5%;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .form-title{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26.46px;
+                    color: #111318;
+                }
+                .form-input{
+                    width: 95%;
+                    height: 48px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background-color: white;
+                    .form-countrycode{
+                        width: 15%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+            
+                    }
+                    .form-input-phonenumber{
+                        width: 70%;
+                        height: 70%;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        
+            .button-wrapper{
+        
+                flex: 1;
+                margin-left: 5%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .form-button{    
+                    width: 95%;
+                    background-color: #111318;
+                    height: 56px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 19.6px;
+                    color: #FFFFFF;
+                    border: none;
+                    cursor: pointer;
+                    outline: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    &.disable{
+                        background-color: #D9DADD;      
+                }
+                }
+            }
+        }
+    
+        &.disable{
+            filter: blur(20px);
+            pointer-events: none;
+            user-select: none;
+        }
+    }
+    .popup{
+       position: fixed;
+       top: 0;
+    }
+
+}
+

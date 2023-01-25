@@ -1,0 +1,178 @@
+// .main {
+//   h2 {
+//     font-size: 74px;
+//     font-weight: 800;
+//     line-height: 89px;
+//   }
+
+//   h4 {
+//     font-size: 24px;
+//     font-weight: 400;
+//     line-height: 38px;
+//   }
+// }
+// #chargeEasy>div,.chargeAnywhere>div{
+// margin: 100px 0px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+// }
+// #chargeEasy>div>div:first-child{
+
+// min-width: 783px;
+
+
+// }
+// .chargeAnywhere>div >div:first-child{
+// max-width: 500%;
+// margin: auto;
+// }
+
+
+
+// .center-txt {
+//   text-align: center;
+// }
+
+// .gray-txt {
+//   color: #b2b5bd;
+// }
+// .dark-gray-txt{
+//   color: #111318;
+// }
+
+// .bikeImage {
+//   display: flex;
+
+//   justify-content: center;
+// }
+// .bikeImage > img {
+//   height: 410px;
+//   max-width: 320px;
+// }
+// .red{
+
+//   position: relative;
+  
+//   bottom: 100px;
+//   margin-top: 8rem;
+// }
+// .swiper-slide{
+//   text-align: start!important;
+// }
+#main {
+  h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 89px;
+  }
+
+  h4 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .portfolioDisc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11vh;
+    z-index: -2;
+  }
+  .red {
+    height: 2px;
+    position: relative;
+    top: -7vh;
+  }
+}
+
+.bikeImage{
+  transform: translateY(-108px);
+
+  img{ width: 25%;
+    // object-fit: cover;
+    // height: 350px;
+  }
+} 
+#chargeEasy>div,.chargeAnywhere>div{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+// #chargeEasy>div>div:first-child{
+
+// min-width: 783px;
+
+// }
+.chargeAnywhere>div >div:first-child{
+max-width: 500%;
+margin: auto;
+
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.gray-txt {
+  color: #b2b5bd;
+}
+// .dark-gray-txt{
+//   color: #111318;
+// }
+
+// .bikeImage {
+//   display: flex;
+
+//   justify-content: center;
+// }
+// .bikeImage > img {
+//   height: 410px;
+//   max-width: 320px;
+// }
+
+// .swiper-slide{
+//   text-align: start!important;
+// }
+// .animate-first {
+
+//           animation-delay: 1s !important;
+// }
+
+// .animate-second {
+
+//           animation-delay: 1.5s !important;
+// }
+
+// .animate-third {
+
+//           animation-delay: 2s !important;
+// }
+
+// .animate-reveal {
+//   opacity: 0;
+//   -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+//      -moz-animation: reveal 1s ease-in 1 normal forwards;
+//        -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+//           animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+// }
+
+// @keyframes reveal {
+//   0% {
+//     opacity: 0;
+//     -webkit-transform: translateY(100%);
+//        -moz-transform: translateY(100%);
+//          -o-transform: translateY(100%);
+//             transform: translateY(100%);
+//   }
+//   100% {
+//     opacity: 1;
+//     -webkit-transform: translateY(0);
+//        -moz-transform: translateY(0);
+//          -o-transform: translateY(0);
+//             transform: translateY(0);
+//   }
+// }

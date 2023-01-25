@@ -1,0 +1,58 @@
+.careers-container{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(241, 241, 241);
+    .company-info-container{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+        .company-info-heading{
+            width: 60%;
+            margin-left: 5%;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31.75px;
+
+            .company-name{
+                font-weight: 500;
+            font-size: 24px;
+            line-height: 31.75px;
+                color: #787E8C;
+            }
+        }
+        .company-info-desc{
+            color: #111318;
+            width: 90%;
+            margin-left: 5%;
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+        }
+    }
+    .job-openning-container{
+        flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .openings{
+        display: flex;
+        // justify-content: flex-start;
+        align-items: center;
+        flex: 1;
+        width: 90%;
+       font-weight: 600;
+       font-size: 20px;
+       line-height: 30px;
+    }
+    .job-openings-container{
+        flex: 4;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+       }
+    }
+}

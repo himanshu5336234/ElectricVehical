@@ -1,0 +1,83 @@
+.home-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  // border: 1px solid red;
+  background-image: url("../../../asset/LandingPage/HomeFull.png");
+  background-size: cover;
+}
+
+
+.battery-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  // border: 1px solid red;
+  background-image: url("../../../asset/LandingPage/BatteryFull.png");
+  background-size: cover;
+}
+.charging-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  // border: 1px solid red;
+  background-image: url("../../../asset/LandingPage/ChargingFull.png");
+  background-size: cover;
+}
+.connectivity-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  // background-image: url("../../../asset/LandingPage/ConnectivityFull.png");
+  background-size: cover;
+}
+
+.performance-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  // border: 1px solid red;
+  background-image: url("../../../asset/LandingPage/PerformanceFull.png");
+  background-size: cover;
+}
+.safety-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url("../../../asset/LandingPage/SafetyFull.png");
+  background-size: cover;
+}
+.reliability-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url("../../../asset/LandingPage/ReliabilityFull.png");
+  background-size: cover;
+}
+.design-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url("../../../asset/LandingPage/DesignComp.png");
+  background-size: cover;
+}
+.warrenty-cntnr {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url("../../../asset/LandingPage/ServiceWarrantyFull.png");
+  background-size: cover;
+}
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.top-bottom-inside {
+  border: 1px solid #111318;
+  // width: 97.9%;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(252, 255, 231);
+  // border: 1px solid #000;
+  // position: absolute;
+  display: flex;
+  // margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  // opacity: 0.8;
+  top: 0;
+  margin: 0;
+  padding-left: 20px;
+  background: #111318;
+  place-content: flex-start;
+  height: 38px;
+}

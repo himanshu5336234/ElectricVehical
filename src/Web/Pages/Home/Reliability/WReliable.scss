@@ -1,0 +1,50 @@
+.w-reliable{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url("../../../Assets/LandingPage/DesktopReliability.jpg");
+    background-size:100% 100%;
+
+}
+
+.reliable_heading{
+    // text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+font-size: 74.2798px;
+line-height: 110%;
+color: #FFFFFF;
+padding-top: 200px;
+margin-left: 104px;
+}
+ .w-logo_container h1{
+     font-family: 'Red Hat Display';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 70.1531px;
+ line-height: 110%;
+ color: #FFFFFF;
+//  text-transform: uppercase;
+ }
+ 
+ .w-box_container{
+ 
+     position: absolute;
+     display: flex;
+     justify-content: space-evenly;
+     gap: 16px;
+     bottom: 32px;
+     left: 197px;
+ 
+ }
+ 
+ .w-starting_at{
+     font-family: 'Red Hat Display';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 30.2222px;
+     line-height: 135%;
+     color: #FFFFFF;
+     margin-top: 16px;
+ 
+ }

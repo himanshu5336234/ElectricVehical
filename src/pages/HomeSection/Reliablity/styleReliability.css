@@ -1,0 +1,25 @@
+.sectionR2 {
+  height: 100vh;
+  /* background-color: yellow; */
+  scroll-snap-align:start
+}
+.sectionR3 {
+  height: 100vh;
+  /* background-color: red; */
+  scroll-snap-align:start
+}
+.sectionR4 {
+  height: 100vh;
+  /* background-color: green; */
+  /* scroll-snap-align:start */
+}
+.heading-bottomReliability {
+  /* position: absolute; */
+  color: #fff;
+  /* bottom: 20%; */
+  margin: 0 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}

@@ -1,0 +1,41 @@
+.benifit-container{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    display: flex;
+
+
+    .benifit-tex{
+        flex: 3;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            
+            text-align: center;
+            width: 90%;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+   
+   .netflix-container{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .netflix-bg{
+        position: absolute;
+        // background-image: linear-gradient(to right, red , blue);
+        object-fit: cover;
+    }
+    .netflix{
+        padding-right: 20%;
+    }
+   }
+   
+}

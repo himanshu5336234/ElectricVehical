@@ -1,0 +1,232 @@
+.w-safe-wrapper {
+  .w-safe-hide {
+    overflow: hidden;
+  }
+
+  // background-image: url("../../../../Assets/Safety/safeExpanded/Safeback.png");
+  // position: relative;
+  // display: flex;
+  // flex-direction: column;
+}
+
+.w-slide2 {
+  height: 110vh;
+
+  background-size: cover;
+  div {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    h2 {
+      font-family: "Red Hat Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 98px;
+
+      color: white;
+    }
+    p {
+      font-family: "Red Hat Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 150%;
+width: 90%;
+margin: 0px auto;
+      color: #ffffff;
+    }
+  }
+}
+.swiper-slide {
+  overflow: hidden;
+  display: block !important;
+  height: 100vh !important;
+}
+// .w-slide3 {
+//   height: 90vh;
+
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   background-size: cover;
+//   justify-content: center;
+
+//   p {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 32px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #ffffff;
+//   }
+//   img {
+//     position: absolute;
+//     top: 38%;
+//     right: 20%;
+//     width: 40px;
+//     height: 60px;
+//   }
+
+//   h2 {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 74px;
+//     line-height: 98px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: white;
+//     text-align: center;
+//   }
+//   span {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 150%;
+//     text-align: center;
+//     color: #ffffff;
+//   }
+// }
+
+// .w-slide4 {
+//   height: 90vh;
+
+//   background-repeat: no-repeat;
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   background-size: cover;
+//   justify-content: center;
+
+//   p {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 32px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #ffffff;
+//   }
+//   img {
+//     position: absolute;
+//     top: 38%;
+//     right: 20%;
+//     width: 40px;
+//     height: 60px;
+//   }
+
+//   h2 {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 74px;
+//     line-height: 98px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: white;
+//     text-align: center;
+//   }
+//   span {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 150%;
+//     text-align: center;
+//     color: #ffffff;
+//   }
+// }
+// .w-rightdown {
+//   display: flex;
+//   flex-basis: 50%;
+//   background-image: url("../../../../Assets/Safety/safeExpanded/Safer.png");
+//   background-size: 50vw 50vh;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   h2 {
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 40px;
+//     line-height: 53px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: white;
+//     text-align: center;
+//   }
+//   span {
+//     font-size: 18px;
+//     line-height: 150%;
+//     font-family: "Red Hat Display";
+//     font-style: normal;
+//     font-weight: 500;
+//     text-align: center;
+//     color: #ffffff;
+//   }
+// }
+
+.w-leftdiv {
+  position: relative;
+  display: flex;
+overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-size: cover;
+  color: #ffffff;
+  h2 {
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+  }
+  p {
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.ease{
+
+  transition: all 1s linear;
+}
+
+.swiper-horizontal>.swiper-scrollbar{
+  display: none;
+}
+
+.swipe-btn{
+  padding: 8px;
+ display: flex;
+  gap: 8px;
+  background: #F3F3F3;
+  border-radius: 200px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #111318;
+  position: fixed;
+  z-index: 100000;
+  /* top: calc(10vh + 24px); */
+  right: 24px;
+  bottom: 3%;
+  cursor: pointer;
+}

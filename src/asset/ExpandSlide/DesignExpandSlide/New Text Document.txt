@@ -1,0 +1,152 @@
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* /* overflow-x: hidden; */
+}
+.design-expand 
+{
+    background-color: #292B2B;
+    overflow-x: hidden;
+    height : 100vh;
+    width: 100vw;
+}
+.design-expand > img 
+{
+    position: absolute;
+    top : 30%;
+    left : 10%;
+}
+.track 
+{
+    transform: scale(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 20px 20px 20px 20px;
+}
+.circular-parent-range-slider 
+{
+    transform: rotate(-11deg);
+    visibility: visible;
+}
+.custom-progress 
+{
+    transform: rotate(-11deg);
+    visibility: hidden;
+}
+.design-content 
+{
+    position : absolute;
+    top :0%;
+    height : 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.design-content-inner {
+    height : 50%;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgba(41, 43, 43, 1) 30%, rgba(41,43,43,0));
+}
+.design-content span 
+{
+    display: block;
+}
+.design-uppar-content 
+{
+    width : 80%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.design-middle-content 
+{
+    height: 20%;
+    width : 80%;
+}
+.design-middle-content > div 
+{
+    width : 100%;
+    height : 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.design-middle-content > div > div:first-child,
+.design-middle-content > div > div:last-child 
+{
+    height : 1px;
+    width : 20%;
+    background-color: white;
+}
+.design-middle-content > div > span
+{
+    font-size: 1.25;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+}
+.design-upper-content > span:first-child 
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.design-upper-content > span:last-child 
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+.design-bottom-content
+{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design-bottom-content > div 
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-content-hori
+{
+    height : 30px;
+    width : 1px;
+    background-color: rgba(255,255,255,0.5);
+}
+.design-bottom-content > div > div:last-child 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.design-bottom-content > div > div:last-child span
+{
+    display: block;
+    font-size: 0.875;
+    font-weight: 700;
+    padding-left : 10px;
+    color: rgba(255,255,255,0.5)
+}
+
+
+/* ------------------------ BIKE SPIN SLIDE IMAGES -------------------- */
+.bike-slide-parent-container 
+{
+    height : 100vh;
+    width: 100vw;
+    background-color: white;
+}

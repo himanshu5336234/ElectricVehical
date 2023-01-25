@@ -1,0 +1,203 @@
+.about_container{
+  position: relative;
+  top: 10vh;
+}
+
+.about_first_container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    gap: 56px;
+    position: relative;
+    background: url("../../../asset/AboutUS/aboutus_background.png");
+    background-size:100% 100%;
+    color: #FFFFFF;
+    // top: 10vh;
+    .video_container{
+      padding-top: 120px;
+      padding-left: 170px;
+    }
+    .first_content{
+        padding-top: 120px;
+        padding-right: 120px;
+        .first_content_heading{
+            font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+        }
+        .first_content_description{
+            font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 16px;
+        }
+    }
+}
+.about_second_container{
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+color: #FFFFFF;
+    .about_title{
+        font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #B2B5BD;
+padding-top: 100px;
+// margin-top: 24px;
+    }
+    .about_heading{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 24px;
+
+    }
+    .about_content{
+        margin-top: 24px;
+        width: 50%;
+        font-family: 'Manrope';
+        font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+width: 40%;
+    }
+    .about_crousel_img{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+.about_third_container{
+     padding-bottom: 40px;
+  .first_container{
+    height:180px;
+    text-align: center;
+    position: relative;
+    background-color: #C2C2C2;;
+    .meet{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+color: #787E8C;
+padding-top: 40px;
+    }
+    .team{
+      font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color:#111318;
+    }
+  }
+  .second_container{
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+}
+.about_bar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    text-align: center;
+    top: 300px;
+  }
+  
+  .about_bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+  }
+  
+  .about_bar li button {
+    border: none;
+    background: grey;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height:5px;
+    width: 100px;
+  }
+  
+  .about_bar li.slick-active button {
+    background-color:#ccc;
+  }
+  
+  .about_bar li button:hover,
+  .about_bar li button:focus {
+    background:#ccc;
+    outline: 0;
+  }
+
+  .slick-dots li button {
+    width: 100% !important;
+    height: 100% !important;
+    display: inline-block !important;
+    color: #ccc !important;
+    width: 12px !important;
+    height: 12px !important;
+    outline: none !important;
+  }
+  .about_crousel{
+    // padding-left: 120px;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    // padding-top: 100px;
+    padding-left: 120px;
+  }
+  .management_carousel_name{
+    font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #111318;
+margin-top: 16px;
+  }
+  .management_carousel_designation{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #111318;
+opacity: 0.8;
+margin-top: 4px;
+  }
+  .management_carousel_description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    width: 80%;
+color: #111318;
+opacity: 0.8;
+margin-top: 16px;
+
+  }
+ .slick-next {
+  right: 25px !important;
+}
+ .slick-prev {
+  left: -16px !important;
+}
+.slick-arrow {
+	z-index: 1 !important;
+	width: 40px !important;
+	height: 40px !important;
+}
+.slick-prev:before,.slick-next:before{
+  color:rgba(120, 126, 140, 0.7);
+  font-size: 40px;
+  opacity: 0.5;
+  backdrop-filter: blur(4px);
+}
+.slick-prev:after,.slick-next:after{
+  color:rgba(120, 126, 140, 0.7);
+  font-size: 40px;
+  opacity: 1;
+  backdrop-filter: blur(8px);
+}

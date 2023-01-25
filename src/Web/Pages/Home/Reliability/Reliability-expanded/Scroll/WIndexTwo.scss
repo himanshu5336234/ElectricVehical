@@ -1,0 +1,66 @@
+.w-index-two-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .w-section-slider-one{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
+    .w-section-slider-two{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: relative;
+        justify-content: center;
+         .w-section-bg-img{
+            position: absolute;
+         width: inherit; 
+         height: inherit;
+         object-fit: cover;  
+         
+         }
+        .w-slider-content{
+            background-image: linear-gradient(to top, black, transparent);
+            position: absolute;
+            top: 26%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 74vh;
+            width: 100vw;
+            .w-icon-img{
+                width: 10%;
+                height: 15%;
+                object-fit: fill;
+                margin-bottom: 20px;
+                // scale: 0.5;
+            }
+            h2{
+                text-align: center;
+                font-size: 30px;
+                color: white;
+                font-weight: 700;
+                font-family: 'Red Hat Display';
+                font-style: normal; 
+                font-size: 74px;
+                line-height: 100%;
+                margin-bottom: 20px;
+            }
+            span{
+                text-align: center;
+                font-size: 25px;
+                color: #FFFFFF;
+                font-weight: 400;
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-size: 25.2659px;
+                line-height: 150%;
+
+            }
+        }
+    }
+}

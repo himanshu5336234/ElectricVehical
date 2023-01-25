@@ -1,0 +1,160 @@
+.w-service-expanded{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-size:  100vw 100vh;
+    background-color: #fff;
+}
+
+.w-ser2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../../Assets/Service/ServiceExpanded/DesktopServiceCrouselSecond.png");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size:  100vw 100vh;
+    justify-content: center;
+    margin-top: 26%;
+    
+        p{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+
+    h2{
+     font-family: 'Red Hat Display';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 74px;
+     line-height: 98px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+    }
+    span{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+
+}
+
+.w-ser3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../../Assets/Service/ServiceExpanded/DesktopServiceCrouselThird.png");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size:  100vw 100vh;
+    justify-content: center;
+    margin-top: 26%;
+    
+        p{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+
+    h2{
+     font-family: 'Red Hat Display';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 74px;
+     line-height: 98px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+    }
+    span{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+
+}
+
+.w-ser4{
+    width: 100vw;
+    height: 110vh;
+    background-image: url("../../../../Assets/Service/ServiceExpanded/RoadW.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size:  100vw 100vh;
+    justify-content: center;
+    margin-top: 26%;
+    background-repeat: no-repeat;
+    
+        p{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+
+    h2{
+     font-family: 'Red Hat Display';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 74px;
+     line-height: 98px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+    }
+    span{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.77;
+    }
+}
+.swiper-creative .swiper-slide{
+  overflow: unset !important;
+}

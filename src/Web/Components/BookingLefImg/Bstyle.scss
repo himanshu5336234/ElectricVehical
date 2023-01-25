@@ -1,0 +1,13 @@
+.w-booking-leftContainer {
+  /* flex: 1; */
+  width: 50%;
+  background-color: #D9DADD;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  .w-booking-img {
+    width: 100%;
+    height: calc(100vh - 10vh);
+    // object-fit: cover;
+  }
+  }

@@ -1,0 +1,33 @@
+.div_container{
+    width: 200px;
+    height: 60px;
+    box-shadow: inset 12.4px -12.4px 12.4px rgba(94, 94, 94, 0.1), inset -12.4px 12.4px 12.4px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.33);
+    backdrop-filter: blur(12.4px);
+    border-radius: 8px;
+    padding: 31px 32px 31px 16px;
+display: flex;
+gap: 32px;
+align-items: center;
+}
+.icon_img{
+/* height: 20px !important; */
+width: 30px !important;
+object-fit: none !important;
+}
+.container_content_title{
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.container_content_value{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+color: #FFFFFF;
+}

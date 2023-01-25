@@ -1,0 +1,98 @@
+.sidebar-container{
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    position: fixed;
+    .sidebar-top{
+        position: relative;
+     height: calc(100vh - 191px);
+     background-color: #1E1E1E;
+     display: flex;
+     flex-direction: column;
+     .top-one{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .top-text{
+            margin-left: 5%;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21.86px;
+          .link{
+            text-decoration: none;
+            color: white;
+          }
+        }
+     }
+     .top-two{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .top-text{
+            margin-left: 5%;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21.86px;
+          .link{
+            text-decoration: none;
+            color: white;
+          }
+        }
+     }
+     .top-three{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        
+        .top-three-bottom{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .top-text{
+                margin-left: 5%;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21.86px;
+                .link{
+                  text-decoration: none;
+                  color: white;
+                }
+              }
+        }
+        .gap{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            .sidebar-button{
+               width: 90%;
+               height: 55px;
+               z-index: 2;
+               position: absolute;
+               top:95%;
+               left: 5%;
+               font-weight: 500;
+               line-height: 19.6px;
+               font-size: 14px;
+            }
+        }
+        
+     }
+
+     .hr-container{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+
+      .hr-divider{
+        width: 90%;
+        border: 1px solid gray;
+        opacity: 0.1;
+       }
+     }
+    }
+}

@@ -1,0 +1,617 @@
+.wdesign-spinning-container 
+{
+    padding-top: 10vh;
+    height: 90vh;
+    width: 100vw;
+    background-color: #292B2B;
+    display: flex;
+    overflow: hidden;
+}
+.wdesign-spinning-left-container 
+{
+    width: 55%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* ------------------------------- RANGE SLIDING RIGHT CONTAINER -------------- */
+
+.wdesign-spinning-right-container
+{
+    width: 45%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wdesign-inner-spinning-right-container 
+{
+    height: 90%;
+    width: 90%;
+    /* background-color: darkgrey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.wdesign-upper-inner-spinning-right-container 
+{
+    height : 60%;
+    width: 80%;
+    /* background-color: darkolivegreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.wdesign-upper-inner-spinning-right-container span
+{
+    display: block;
+}
+.wdesign-upper-inner-spinning-right-container > span:first-child 
+{
+    font-size: 4.625rem;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
+}
+.wdesign-upper-inner-spinning-right-container > span:last-child  
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color : white;
+}
+
+.wdesign-bottom-inner-spinning-right-container 
+{
+    height : 25%;
+    width: 20%;
+    /* background-color: aqua; */
+}
+.wdesign-bottom-inner-spinning-right-container > img 
+{
+    height : 100%;
+    width: 100%;
+}
+.wrange-slider-inner-img 
+{
+    /* height : 400px; */
+    /* width: 400px; */
+    /* width: inherit; */
+    width: 500px;
+}
+.wrange-slider-img 
+{
+    position: absolute;
+    z-index: 2;
+}
+.wdesign-bottom-content-hidden
+{
+    display: none;
+    transition: 1s ease;
+}
+/* -------------------  RANGE SLIDING BIKE ------------------------------ */
+.wtrack-container 
+{
+    position: absolute;
+    display: none;
+}
+.left-spinning-shadow
+{
+    height : 100%;
+    width : 30%;
+    /* background-color: rgba(255,255,255,0.3); */
+    background-image: linear-gradient(rgba(41, 43, 43, 1) 80%, rgba(41,43,43,0));
+    z-index: 1;
+    position: absolute;
+    left : 0%;
+    /* border: 1px solid red; */
+}
+.right-spinning-shadow 
+{
+    height : 100%;
+    width: 30%;
+    /* background-color: rgba(255,255,255,0.3); */
+    background-image: linear-gradient(rgba(41, 43, 43, 1) 80%, rgba(41,43,43,0));
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    /* border : 1px solid red; */
+}
+.top-spinning-shadow 
+{
+    height : 20%;
+    width: 100%;
+    /* background-color: rgba(255,255,255,0.3); */
+    background-image: linear-gradient(rgba(41, 43, 43, 1) 60%, rgba(41,43,43,0));
+    position: absolute;
+    z-index: 1;
+    top :0%;
+    /* border : 1px solid red; */
+}
+.wspinning-text-content 
+{
+    width: 25%;
+    position: absolute;
+    /* color : white; */
+    color : #787E8C;
+    display: flex;
+    justify-content: space-evenly;
+    top : 85%;
+}
+.wspinning-text-content span
+{
+    display: block;
+    font-size: 1.125;
+    font-weight: 600;
+}
+
+
+/* -------------------- ROTATIONAL SPINNING CONTAINER ------------- */
+.wspin-bike-slider-container
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.wspin-bike-slider-inner-row1
+{
+    /* margin : -50px 0 0 0; */
+    transform: translateY(-50px);
+}
+.wspin-bike-slider-inner-row1 span
+{
+    display: block;
+    text-align: center;
+}
+.wspin-bike-slider-inner-row1 span:first-child 
+{
+    color : #787E8C;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.wspin-bike-slider-inner-row1 span:last-child 
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.wspin-bike-inner-slider
+{
+    width: 60vw;
+    height: 20%;
+    position: relative;
+}
+
+
+
+
+
+.wdesign-rotational-spinning-container
+{
+    height : 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.left-arrow-slider 
+{
+    height : 10%;
+    width : 5%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.wmiddle-rotational-spinning-container 
+{
+    height : 100%;
+    width: 65%;
+    /* background-color: blanchedalmond; */
+}
+.right-arrow-slider 
+{
+    height: 10%;
+    width: 5%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.wspin-bike-slider-inner-row 
+{
+    height : 65%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.wspin-bike-slider-inner-column
+{
+    height : 100%;
+    width : 90%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wspin-bike-slider-inner-column > div
+{
+    height : 100%;
+    width: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    /* overflow-x: auto; */
+    /* position: relative; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    justify-content: space-between;
+}
+.wspin-bike-slider-inner-column > div > div 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.wspin-bike-opacity
+{
+    opacity: 0.5;
+    transition: 100ms ease;
+    /* margin: 2vh 0 0 0; */
+}
+.wspin-bike-slider1
+{
+    width : 100%;
+    height : 80%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wspin-bike-index1 
+{
+    position: relative;
+    z-index: 5;
+}
+.wspin-bike-index2
+{
+    position: relative;
+    z-index: 10;
+}
+.wspin-bike-index3 
+{
+    position: relative;
+    z-index: 3;
+}
+.wspin-bike-slider-inner-column > div > div > div:last-child 
+{
+    /* background-color: indianred; */
+    height : 20%;
+    width: 100vw;
+}
+.wspin-bike-1, .wspin-bike-2, .wspin-bike-3 
+{
+    width : 30%;
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wspin-bike-inner-img
+{
+    width: 80px;
+}
+.wspin-bike-absolute-position 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.wspin-bike-hidden-slide 
+{
+    display: none;
+    visibility: hidden;
+}
+.wspin-bike-show-slide
+{
+    display: block;
+    visibility: visible;
+}
+.wspin-bike-rotational-hidden-slide
+{
+    display: none;
+    visibility: hidden;
+}
+.wspin-bike-rotational-show-slide
+{
+    position: absolute;
+    width: 700px;
+    /* height: 500px; */
+    z-index: 1000;
+    margin : 0 0 0 15px;
+}
+.wspin-bike-rotational-show-slide-hidden 
+{
+    display: none;
+}
+/* .spin-bike-slider-inner-column img 
+{
+    width: 80px;
+} */
+.wspin-bike-slider-inner-column span 
+{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.wspin-bike-slide-bottom-circle
+{
+    position :absolute;
+    top : 50vh;
+    /* z-index: -10; */
+    /* left: 10%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wspin-bike-slide-bottom-circle > img 
+{
+    width: 80%;
+}
+.wspin-bike-slide-anime-line img 
+{
+    width: 230px;
+    height: 230px;
+}
+.wspin-bike-slide-anime-line 
+{
+    position: absolute;
+    right : 0%;
+    top : 65vh;
+}
+.wdesign-scrolling-container 
+{
+    height : 100vh;
+    width: 100vw;
+    /* background-color: #787E8C; */
+    background-color: #D9DADD;
+    overflow: hidden;
+}
+
+
+/* ----------------------------- DESIGNING SCROLLING CONTAINER --------------- */
+
+.wbike-scrolling-inner-container 
+{
+    height : 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wbike-scrolling-inner-container > div 
+{
+    width : 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wbike-scrolling
+{
+    margin-right: 40px;
+}
+.wbike-scrolling > img 
+{
+    height: 300px;
+}
+.wbike-scrolling-inner-container > div:nth-child(2)
+{
+    margin-left: -15px;
+}
+.wbike-scrolling-inner-container > div:first-child > span:first-child 
+{
+    font-size: 3rem;
+    font-weight: 700;
+    display: block;
+}
+.wbike-scrolling-inner-container > div:first-child > span:last-child
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: block;
+    /* color: rgba(120, 126, 140, 1); */
+}
+.wbike-scrolling-inner-container > div:nth-child(3) > span 
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    opacity: 0.7;
+}
+.wbike-scrolling-inner-container > div:last-child 
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 8vw;
+}
+.wbike-scrolling-inner-container > div:last-child>span 
+{
+    width : 83%;
+    font-size: 0.875rem;
+    /* color: rgba(120, 126, 140, 1); */
+}
+.wgeneric-bike 
+{
+    height : 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(rgba(217, 218, 221, 0),rgba(217, 218, 221, 1) 50%); 
+}
+
+.wgeneric-bike > img 
+{
+    width : 400px;
+    height: 400px;
+}
+
+/* -------------------- SCROLLING CONTAINER -------------- */
+.wbike-scrolling-container-2 
+{
+    height : 100vh;
+    width: 100vw;
+    /* background-color: white; */
+}
+.wbike-outer-swipe-slide-container 
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+}
+.wbike-inner-swipe-slide-container 
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #787E8C; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.w-bike-inner-swipe-slide-left-container1
+{
+    height: 70%;
+    width: 40%;
+    /* background-color: violet; */
+}
+.w-bike-inner-swipe-slide-right-container1
+{
+    height: 70%;
+    width: 40%;
+    /* background-color: white; */
+}
+.w-bike-inner-swipe-slide-right-container1 > div 
+{
+    height : 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.w-bike-inner-swipe-slide-right-container1 > div > span:first-child 
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color : #787E8C;
+}
+.w-bike-inner-swipe-slide-right-container1 > div > span:nth-child(2)
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+.w-bike-inner-swipe-slide-right-container1 > div > span:last-child 
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #111318;
+    opacity: 0.7;
+}
+.wbike-outer-swipe-slide-container2 
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.wbike-inner-swipe-slide-container2 
+{
+    width: 70%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wbike-inner-swipe-slide-container2 > div:first-child
+{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.wbike-inner-swipe-slide-container2 > div:last-child 
+{
+    height : 50%;
+}
+
+.wbike-inner-swipe-slide-container2 > div span 
+{
+    display: block;
+}
+.wbike-inner-swipe-slide-container2 > div span:first-child 
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color : #787E8C;
+}
+.wbike-inner-swipe-slide-container2 > div span:nth-child(2) 
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+.wbike-inner-swipe-slide-container2 > div span:last-child 
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #111318;
+    opacity: 0.7;
+}
+
+.wbike-inner-swipe-slide-container2 > div:last-child img 
+{
+    /* height: 100%; */
+    /* width: 100%; */
+    height: 600px;
+    width: 600px;
+}
+

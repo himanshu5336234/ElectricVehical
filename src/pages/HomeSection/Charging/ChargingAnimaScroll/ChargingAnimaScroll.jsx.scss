@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .Charging-on-scroll{
+      width: 80%; 
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        label{
+            display: flex;
+           flex-direction: column;
+            h1{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            .info{
+                font-size: 45px;
+                font-weight: 700;
+            }
+            .des{
+                font-size: 14px;
+                font-weight: 500;
+                opacity: 0.7;
+            }
+        }
+    }
+}

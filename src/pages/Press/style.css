@@ -1,0 +1,8 @@
+.active-tab-mob {
+  font-weight: 800 !important;
+    font-size: 14px !important;
+}
+.unactive-tab-mob {
+  font-weight: 500;
+  font-size: 13px;
+}

@@ -1,0 +1,68 @@
+
+.w-design{
+
+    width: 100vw;
+
+    height: 100vh;
+
+    position: relative;
+
+    // background: url("../../../Assets/Design/landing\ desktop.mp4");
+
+    background-size:100% 100%;
+
+    // background-color: lightblue;
+
+}
+
+.w-logo_container{
+   position: absolute;
+top: 30%;
+//    left: 10%;
+
+    margin-left: 104px;
+    text-align: left !important;
+
+}
+.w-logo_container h1{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 70.1531px;
+line-height: 110%;
+color: #FFFFFF;
+// text-transform: uppercase;
+}
+
+.w-box_container{
+
+    position: absolute;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    gap: 16px;
+
+    bottom: 32px;
+
+    left: 197px;
+
+}
+
+.w-starting_at{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.2222px;
+    line-height: 135%;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}
+.w-videoTag-design{
+    // position: fixed;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}

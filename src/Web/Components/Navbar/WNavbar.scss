@@ -1,0 +1,155 @@
+.w-navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    .oben-logo{
+        margin-left: 5%;
+    }
+    .hamburgar-menu{
+        margin-right: 2rem;
+        // width: 100px;
+        height: inherit;
+        // border: 1px solid red;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        .hamburger-icon{
+            color: white;
+            scale: 1.5;
+            cursor: pointer;
+        }
+        // .hamburger{
+        //     // border: 1px solid red;
+        //     width: 30px;
+        //     height: 30px;
+        //     cursor: default;
+        //     margin-right: 10%;
+        //    display: flex;
+        //    flex-direction: column;
+        //    justify-content: space-evenly;
+        //    user-select: none !important;
+        //         span{
+        //         background-color: rgb(252, 255, 231);
+        //         width: 100%;
+        //         height: 1px;
+        //         transform-origin: left;
+        //         transition: all 1s ease;
+        //         text-decoration: none;
+        //         }
+        //         &.active{
+        //                 span{
+        //                     &:first-child{
+        //                         background-color: white;
+        //                         transform: rotate(33deg);
+        //                     }
+        //                     &:nth-child(2){
+        //                         opacity: 0;
+        //                     }
+        //                     &:last-child{
+        //                         background-color: white;
+        //                         transform: rotate(-33deg);
+        //                     }
+        //                 }
+        //         }
+        //  }  
+    }
+}
+.headers{
+    font-weight: 600;
+font-size: 14px;
+cursor: pointer;
+line-height: 19px;
+color: #FFFFFF;
+text-align: center;
+}
+.activeHeader{
+opacity: 1;
+}
+.not-activeHeader{
+    opacity: 0.5;
+    }
+.prevArrow {
+    color: white;
+    position: absolute;
+    left: -20px;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 15px;
+  }
+.navbar_button{
+    font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+  .nextArrow {
+    position: absolute;
+    top: 0%;
+    right: -20px;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+    // background: #006b62;
+    position: relative;
+  }
+  .test_btn {
+    border-color: #fff;
+    span {
+      color: #fff;
+      transform: scaleX(0.6);
+      letter-spacing: 2px;
+      transition: color 0.5s ease;
+      z-index: 1;
+    }
+    &:before, &:after {
+      content: '';
+      background: #fff;
+      height: 50%;
+      width: 0;
+      position: absolute;
+      transition: .3s cubic-bezier(.785,.135,.15,.86);
+    }
+    &:before {
+      top: 0;
+      left: 0;
+      right: auto;
+    }
+    &:after {
+      bottom: 0;
+      right: 0;
+      left: auto;
+    }
+    &:hover {
+        transform: scale(1.2);
+        transition: 2s ease-in-out;
+      &:before {
+        width: 100%;
+        right: 0;
+        left: auto;
+        
+      }
+      &:after {
+        width: 100%;
+        left: 0;
+        right: auto;
+      }
+      span {
+        color: #000;
+      }
+    }
+  }
